@@ -1,0 +1,22 @@
+{
+  "name": "saucedemo_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "execute:script": "cucumber-js test",
+    "test": "npm run execute:script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "11.0.1",
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5",
+    "multiple-cucumber-html-reporter": "3.8.0",
+    "playwright-bdd": "7.5.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.6.3"
+  }
+}

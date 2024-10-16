@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",                                  /* Version du langage JavaScript. */
+    
+    /* Modules */
+    "module": "commonjs",                                /* Module utilisé pour la compilation. */
+    
+    /* Ajout des types Playwright */
+    "types": ["@playwright/test"],                       /* Types supplémentaires pour inclure ceux de Playwright. */
+
+    /* JavaScript Interop */
+    "esModuleInterop": true,                             /* Facilite la compatibilité avec les modules CommonJS. */
+    
+    /* Contrôles supplémentaires */
+    "forceConsistentCasingInFileNames": true,            /* Vérification de la casse dans les noms de fichiers. */
+    "strict": true,                                      /* Active les vérifications de type strictes. */
+    "skipLibCheck": true                                 /* Ignore la vérification des fichiers .d.ts. */
+  },
+  "include": [
+    "tests/**/*.ts",
+    "tests/features/**/*.feature",
+    "playwright.config.ts"
+  ]
+}
